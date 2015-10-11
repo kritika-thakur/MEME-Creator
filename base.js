@@ -66,6 +66,6 @@
     e.bottomline.onkeyup = renderMeme;
     e.downloadLink.onclick = function () {
         e.downloadLink.href = e.c.toDataURL();
-        e.downloadLink.download = "MemeFlow.png";
+        e.downloadLink.download = "MemeCreator.png";
     };
 }(this.document, this.FileReader, this.Image));
