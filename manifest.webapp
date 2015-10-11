@@ -1,0 +1,28 @@
+{
+  "name": "MEME Creator",
+  "description": "Create MEME's with ease",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/icons/icon_512.png",
+    "128": "/icons/icon_128.png"
+  },
+  "developer": {
+    "name": "Nine_Tails",
+    "url": "http://your-homepage-here.org"
+  },
+  "default_locale": "en",
+  "chrome": { "navigation": true },
+  "datastores-access": {
+  "myData": {
+    "access": "readwrite",
+    "description": "Read and modify my data store"
+  }
+},
+"permissions": {
+    "device-storage:pictures":{ "access": "readwrite" },
+  "camera": {
+    "description": "Required for accessing cameras on the device."
+
+  }
+}
+}
