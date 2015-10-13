@@ -1,0 +1,37 @@
+html {
+            background-color: skyblue;
+        }
+        body {
+            background-color: skyblue;
+            max-width: 60em;
+            margin: 1em auto;
+            border-radius: 2em;
+            padding: 1em;
+            text-align: center;
+        }
+        input, button {
+            font-size: 1.25em;
+            padding: 0.5em;
+            display: inline-block;
+            max-width: 90%;
+        }
+        input[type="image"] {
+            border: 0.125em solid dodgerBlue;
+            border-radius: 0.5em;
+        }
+        a {
+          text-align: center;
+          font-family: sans-serif;
+        }
+        #downloadLink {
+            display: inline-block;
+            padding: 0.5em 1em;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #c {
+            max-width: 100%;
+        }
